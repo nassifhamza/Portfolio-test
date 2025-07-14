@@ -7,7 +7,7 @@ pipeline {
         NEXUS_CREDENTIALS = credentials('nexus-user')
         
         // 🔄 UPDATE: Change to your Docker Hub username
-        IMAGE_NAME = 'hamzanassif/portfolio-frontend'
+        IMAGE_NAME = 'sponsor1/portfolio-frontend'
         IMAGE_TAG = "${BUILD_NUMBER}"
         
         // Local machine URLs - Updated for Docker network
